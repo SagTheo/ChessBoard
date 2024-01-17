@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+.row8 .square.a {
+    border-radius: 10px 0 0 0;
+}
+
+.row8 .square.h {
+    border-radius: 0 10px 0 0;
+}
+
+.row1 .square.a {
+    border-radius: 0 0 0 10px;
+}
+
+.row1 .square.h {
+    border-radius: 0 0 10px 0;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+}
+
+/* 
+
+=================================
+
+*/
+
+/* Square colours */
+.beige {
+    background-color: rgb(251, 235, 216);
+}
+
+.green {
+    background-color: rgb(28, 163, 28);
+}
+
+.blue {
+    background-color: rgb(68, 68, 251);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.black {
+    background-color: black;
+}
+
+.nbOrLetter {
+    font-weight: bold;
+}
+
+/* 
+
+=================================
+
+*/
+
+/* Number or letter colours */
+.nbOrLetterGreen {
+    color: rgb(28, 163, 28);
+}
+
+.nbOrLetterBeige {
+    color: rgb(251, 235, 216);
+}
+
+.nbOrLetterBlue {
+    color: rgb(68, 68, 251);
+}
+
+.nbOrLetterPink {
+    color: pink;
+}
+
+.nbOrLetterBrown {
+    color: brown;
+}
+
+.nbOrLetterBlack {
+    color: black;
+}
+
+
+/* 
+
+=================================
+
+*/
+
+.relative {
+    position: relative;
+}
+
+.letter {
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+}
+
+.nb {
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.moves {
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+    width: 280px;
+    background-color: rgb(76, 75, 75);
+    border-radius: 10px;
+    padding: 10px;
+    color: beige;
+    font-weight: bold;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.clicked {
+    background-color: rgb(213, 213, 57);
+}
+
+#boardColour {
+    height: fit-content;
+}
